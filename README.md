@@ -11,13 +11,8 @@ Before running the application, ensure you have the following installed:
 
 ## Setup Instructions
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/AtharvaKulkarniIT/mern-todo-app.git
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 
 ```bash
 cd mern-todo-app/TODO
@@ -33,20 +28,20 @@ cd todo_frontend
 npm install
 ```
 
-### 3. MongoDB Setup
+### 2. MongoDB Setup
 
 - Open MongoDB Compass
 - Create a new database named `Todo`
 - Inside the `Todo` database, create a collection named `tasks`
 
-### 4. Server setup for database connection
+### 3. Server setup for database connection
 
 ```bash
 PORT=5000  # Port number for the server (you can change it if needed)
 MONGO_URI=mongodb://127.0.0.1:27017/Todo  # MongoDB connection URI
 ```
 
-### 5. Running the App
+### 4. Running the App
 
 ```bash
 # Start the server (from the 'todo_backend' directory)
@@ -62,9 +57,6 @@ The server will run on `http://localhost:5000` and the client on `http://localho
 
 - Open your web browser and go to `http://localhost:3000`.
 - You can add ,update tasks, mark them as completed or delete them.
-
-## Output
-![MERN TODO List App](https://drive.google.com/uc?id=135HfGq09XYieu-1sG9pQeQ41Sx1ytZ1m)
 
 ## Contributing
 
